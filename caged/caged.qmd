@@ -1,0 +1,110 @@
+---
+title: " <img src ='logo2.png' height='60'> Resultado do Caged"
+author: 'Núcleo de Dados <br><span style = "font-size: 110%;">ADEPE<br><a href="https://github.com/dteconometrics">`r fontawesome::fa("github", fill = "#282f6b")`</a>&nbsp; <a href="https://www.linkedin.com/in/vinicius-limeira-565117180/">`r fontawesome::fa("linkedin", fill = "#282f6b")`</a>&nbsp; <a href="mailto:vinicius.valenca@adepe.pe.gov.br">`r fontawesome::fa("envelope", fill = "#282f6b")`</a>&nbsp; <a href="https://www.adepe.pe.gov.br/">`r fontawesome::fa("home", fill = "#282f6b")`</a></span>'
+date: "2024-08-28"
+lang: pt
+format: 
+  html:
+    toc: true  # Ativa o índice
+    toc-location: right
+    toc-depth: 3 
+    theme: sandstone
+    page-layout: full
+    css: styles.css 
+    fig-width: 4.5
+    fig-height: 3
+    fig-dpi: 600
+execute:
+  echo: false
+  warning: false
+  message: false 
+---
+
+```{r, echo=F, eval=T, results='markup', fig.width=8, fig.height=4, fig.align='center', out.width="1\\linewidth", warning=FALSE, message=FALSE, size='tiny'}
+
+```
+
+
+```{r, echo=F, eval=T, results='markup', fig.width=8, fig.height=4, fig.align='center', out.width="1\\linewidth", warning=FALSE, message=FALSE, size='tiny'}
+
+
+```
+
+::: {.grid}
+::: {.g-col-7}
+## Resultado em Pernambuco 
+
+- Aqui vem o Texto 
+
+
+- Aqui vem o Texto 
+
+:::
+
+::: {.g-col-5}
+::: panel-tabset
+
+### Saldo Pe
+
+```{r, echo=F, eval=T, results='markup', fig.width=8, fig.height=4, fig.align='center', out.width="1\\linewidth", warning=FALSE, message=FALSE, size='tiny'}
+
+knitr::include_graphics("C:\\Users\\vinicius.valenca\\Desktop\\Material_ADEPE\\relatório_quarto\\caged\\caged_agosto\\saldo_pe.png")
+```
+
+### Saldos 
+
+```{r, echo=F, eval=T, results='markup', fig.width=8, fig.height=4, fig.align='center', out.width="1\\linewidth", warning=FALSE, message=FALSE, size='tiny'}
+
+knitr::include_graphics("C:\\Users\\vinicius.valenca\\Desktop\\Material_ADEPE\\relatório_quarto\\caged\\caged_agosto\\saldos.png")
+```
+
+:::
+:::
+
+
+::: {.g-col-7}
+## Resultado do Caged
+
+
+- Aqui vem o texto 
+
+
+- Aqui vem o texto 
+:::
+
+::: {.g-col-5}
+::: panel-tabset
+
+### Ranking 
+
+| Ranking | Estado             | Saldo  |
+|:--------|:-------------------|-------:|
+| 1°      | Pernambuco         | 18.112 |
+| 2°      | Bahia              | 16.149 |
+| 3°      | Ceará              |  9.284 |
+| 4°      | Paraíba            |  9.014 |
+| 5°      | Rio Grande do Norte|  7.239 |
+| 6°      | Alagoas            |  5.171 |
+| 7°      | Piauí              |  2.914 |
+| 8°      | Maranhão           |  2.515 |
+| 9°      | Sergipe            | 2.812  |
+
+### Setores 
+
+| Agrupamento    | Admitidos | Desligados |  Saldo  |  Estoque  | Vr. Relativa |
+|:--------------:|----------:|-----------:|--------:|----------:|-------------:|
+| Agropecuária   |     2.576 |      4.604 |  -2.028 |    55.153 |       -3.55% |
+| Indústria      |     7.293 |     12.942 |  -5.649 |   233.365 |       -2.36% |
+| Construção     |     6.045 |      4.394 |   1.652 |    82.866 |        2.03% |
+| Comércio       |    11.730 |     11.243 |     487 |   329.909 |        0.15% |
+| Serviços       |    24.889 |     20.453 |   4.436 |   760.363 |        0.59% |
+| **Total**      |    52.533 |     53.636 |  -1.103 | 1.461.655 |       -0.08% |
+
+
+
+:::
+:::
+
+:::
+
+
