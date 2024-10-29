@@ -48,14 +48,14 @@ execute:
 
 ```{r, echo=F, eval=T, results='markup', fig.width=8, fig.height=4, fig.align='center', out.width="1\\linewidth", warning=FALSE, message=FALSE, size='tiny'}
 
-knitr::include_graphics("caged\\caged_agosto\\saldo_pe.png")
+knitr::include_graphics("saldo_pe.png")
 ```
 
 ### Saldos 
 
 ```{r, echo=F, eval=T, results='markup', fig.width=8, fig.height=4, fig.align='center', out.width="1\\linewidth", warning=FALSE, message=FALSE, size='tiny'}
 
-knitr::include_graphics("caged\\caged_agosto\\saldos.png")
+knitr::include_graphics("saldos.png")
 ```
 
 :::
